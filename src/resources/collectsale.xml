@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header>
+<ent:requestor_info xmlns:ent="http://www.abc.com/services">
+<version>10.0</version>
+<client_id>ABC</client_id>
+<subclient_id>iShop_iPhone</subclient_id>
+</ent:requestor_info>
+</soapenv:Header>
+<soapenv:Body>
+<collectSales>
+<CSRequest>
+<ClientInfo>
+<ProcessingApp>POS</ProcessingApp>
+<AddedByApp>MOBILE_CUST_APP</AddedByApp>
+<ClientVersion>12345</ClientVersion>
+<ReqKey>
+<TimeStamp>2019-04-05T01:57:09.014-04:00</TimeStamp>
+<ID>7234bb04-e058-45e6-985e-15502bb807dd</ID>
+</ReqKey>
+</ClientInfo>
+<SttInfo>
+<Div>XYZ</Div>
+<Date>2019-04-05</Date>
+<Store>123</Store>
+<Reg>456</Reg>
+<Trans>5656</Trans>
+</SttInfo>
+
+
+</CSRequest>
+</collectSales>
+</soapenv:Body>
+</soapenv:Envelope>
